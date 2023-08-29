@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+            <h1>Lista de Pendientes - Disco 2023</h1>
+    </header>
+
+    <main class="body_list">
+        <div>
+            <p>Procesos pendientes</p>
+            <div>
+                <input class="recuadro" type="text" name="" id="input"/>
+                <button class="boton_agregar" id="btn-add-task">Agregar</button>
+            </div>
+        </div>
+
+        <div>
+            <p>Total: <b id="total">0</b></p>
+            <p>Realizadas: <b id="realizadas">0</b></p>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Procesos</th>
+                    <th>Completado</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody id="task-list"></tbody>
+        </table>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
